@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Черный кот</title>
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top-wrap">
+                <div class="container">
+                <div class="header__top">
+                        <div class="logo">
+                            <h3>ЧерныйКот</h3>
+                            <img src="img/logo.svg" alt="кот">
+                        </div>
+                        <div class="header__burger-wrap">
+                            <nav class="header__menu">
+                                <ul class="menu__list">
+                                    <li class="menu__name">Меню</li>
+                                    <li class="menu__item"><a class="menu__link" href="#payment">Расчет стоимости</a></li>
+                                    <li class="menu__item"><a class="menu__link" href="#benefits">Преимущества</a></li>
+                                    <li class="menu__item"><a class="menu__link" href="#application">Как оставить заявку?</a></li>
+                                    <li class="menu__item"><a class="menu__link" href="#review">Отзывы</a></li>
+                                    <li class="menu__item"><a class="menu__link" href="#footer">Реквизиты</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__call-wrap">
+                                <div class="header__call">
+                                    <p class="header__call-mobile">Остались вопросы?, звоните!</p>
+                                    <a href="tel:+77212369000">8 (7212) 369-000</a>
+                                    <a href="tel:+7708436900">8 (708) 43-69-00</a>
+                                    <p class="header__call-desktop">Перезвоните нам</p>
+                                </div>
+                                <div class="header__call-mini">
+                                    <img src="img/phone.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="social social__burger">
+                                <a href="https://www.instagram.com/bez_tarakanov_krg/" target="_blank">
+                                    <img src="img/social/inst.svg" alt="инстаграм">
+                                </a>
+                                <a href="https://wa.me/87084369000" target="_blank">
+                                    <img src="img/social/whatsapp.svg" alt="ватсапп">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="header__main-wrap">
+                <div class="container">
+                    <div class="header__main">
+                        <h1>Уничтожение насекомых, грызунов</h1>
+                        <p>ТОО фирма «Черный кот» проводит услуги дезинсекции по собственной разработанной методике всех типов жилых и не жилых помещений в Караганде, Карагандинской и Акмолинской области</p>
+                        <div class="header__button btn mail-btn"><span>О</span><span>с</span><span>т</span><span>а</span><span>в</span><span>и</span><span>т</span><span>ь</span><pre> </pre><span>з</span><span>а</span><span>я</span><span>в</span><span>к</span><span>у</span></div>
+                        <div class="social">
+                            <a href="https://www.instagram.com/bez_tarakanov_krg/" target="_blank">
+                                <img src="img/social/inst.svg" alt="инстаграм">
+                            </a>
+                            <a href="https://wa.me/87084369000" target="_blank">
+                                <img src="img/social/whatsapp.svg" alt="ватсапп">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button__wrap">
+                <div class="button-mobile btn-mobile mail-btn"><span>О</span><span>с</span><span>т</span><span>а</span><span>в</span><span>и</span><span>т</span><span>ь</span><pre> </pre><span>з</span><span>а</span><span>я</span><span>в</span><span>к</span><span>у</span></div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__remove-wrapper">
+                    <div class="remove__wrap">
+                        <img src="img/remove/rat.svg" alt="крыса">
+                        <p>Уничтожаем грызунов</p>
+                    </div>
+                    <div class="remove__wrap remove__wrap-two">
+                        <img src="img/remove/bug.svg" alt="крыса">
+                        <p>Уничтожаем насекомых</p>
+                    </div>
+                    <div class="remove__wrap">
+                        <img src="img/remove/smell.svg" alt="крыса">
+                        <p>Уничтожаем запахи</p>
+                    </div>
+                </div>
+                <div class="main__payment-wrapper" id="payment">
+                    <h2>Выберите услугу</h2>
+                    <p>Стоимость указана за 2 обработки</p>
+                    <div class="payment__service">
+                        <div class="payment__service-insect">Уничтожение насекомых</div>
+                    </div>
+                    <div class="payment__wrap">
+                        <div class="payment__head">
+                            <p class="payment__head-one">Тип объекта</p>
+                            <div data-index="1" class="payment-gr payment__head-two">Без гарантий</div>
+                            <div data-index="2" class="payment-gr payment__head-three">3 месяца</div>
+                            <div data-index="3" class="payment-gr payment__head-four">1 год</div>
+                        </div>
+                        <div class="payment__apartment payment__apartment-one">
+                            <p class="payment__column-one payment__room-one">1 комн. квартира</p>
+                            <div data-index="1" class="no-grnt payment__column-two visible">12 000тг</div>
+                            <div data-index="2" class="three-grnt payment__column-three visible">17 000тг</div>
+                            <div data-index="3" class="years-grnt payment__column-four visible">25 000тг</div>
+                        </div>
+                        <div class="payment__apartment payment__apartment-two">
+                            <p class="payment__column-one payment__room-two" id="two-room">2 комн. квартира</p>
+                            <div data-index="1" class="no-grnt payment__column-two visible">13 000тг</div>
+                            <div data-index="2" class="three-grnt payment__column-three visible">18 000тг</div>
+                            <div data-index="3" class="years-grnt payment__column-four visible">25 000тг</div>
+                        </div>
+                        <div class="payment__apartment payment__apartment-three">
+                            <p class="payment__column-one payment__room-three" id="three-room">3 комн. квартира</p>
+                            <div data-index="1" class="no-grnt payment__column-two visible">14 000тг</div>
+                            <div data-index="2" class="three-grnt payment__column-three visible">19 000тг</div>
+                            <div data-index="3" class="years-grnt payment__column-four visible">25 000тг</div>
+                        </div>
+                        <div class="payment__apartment payment__apartment-four">
+                            <p class="payment__column-one payment__room-four" id="four-room">4 комн. квартира</p>
+                            <div data-index="1" class="no-grnt payment__column-two visible">15 000тг</div>
+                            <div data-index="2" class="three-grnt payment__column-three visible">20 000тг</div>
+                            <div data-index="3" class="years-grnt payment__column-four visible">26 000тг</div>
+                        </div>
+                    </div>
+                    <div class="payment__description">
+                        <div class="payment__description-rat">
+                            <img src="img/service/rat-mini.svg" alt="крыса">
+                            <div class="payment-description-info">
+                                <p>Обработка грызунов</p>
+                                <p><span>от 9 000 тг</span></p>
+                            </div>
+                        </div>
+                        <div class="payment__description-bug">
+                            <img src="img/service/bug-mini.svg" alt="насекомое">
+                            <div class="payment-description-info">
+                                <p>Обработка подвалов <br>(за подъездную секцию)</p>
+                                <p><span>от 12 000 тг</span></p>
+                            </div>
+                        </div>
+                        <div class="payment__description-hive">
+                            <img src="img/service/hive-mini.svg" alt="улья">
+                            <div class="payment-description-info">
+                                <p>Уничтожения улья</p>
+                                <p><span>от 30 000 тг</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="payment__departure">Для городов-спутников выезд оплачивается отдельно</p>
+                    <div class="payment__price-wrap">
+                        <div class="payment__price-button">Оставить заявку</div>
+                    </div>
+                </div>
+                <div class="main__consultation-wrapper main__consultation-subpayment">
+                    <div class="consultation-wrap">
+                        <h2>Оставьте заявку на бесплатную консультацию</h2>
+                        <div class="btn-wrap">
+                            <div class="btn mail-btn btn-anim"><span>О</span><span>с</span><span>т</span><span>а</span><span>в</span><span>и</span><span>т</span><span>ь</span><pre> </pre><span>з</span><span>а</span><span>я</span><span>в</span><span>к</span><span>у</span></div>
+                        </div>
+                    </div>
+                    <div class="consultation-image consultation__image-cons">
+                        <img src="img/call/phone.png" alt="">
+                    </div>
+                </div>
+                <div class="main__benefits-wrapper" id="benefits">
+                    <h2>Наши преимущества</h2>
+                    <div class="benefits-container">
+                        <div class="benefits-wrap">
+                            <div class="benefits-bg"></div>
+                            <img src="img/benefits/safety.svg" alt="защита">
+                            <h3>Безопасно</h3>
+                            <div class="benefits-line"></div>
+                            <p>для человека, <br>животных <br>и растений</p>
+                        </div>
+                        <div class="benefits-wrap">
+                            <div class="benefits-bg"></div>
+                            <img src="img/benefits/time.svg" alt="время">
+                            <h3>Оперативно</h3>
+                            <div class="benefits-line"></div>
+                            <p>Выезд в любое <br>удобное для вас <br>время 24/7</p>
+                        </div>
+                        <div class="benefits-wrap">
+                            <div class="benefits-bg"></div>
+                            <img src="img/benefits/production.svg" alt="пробирка">
+                            <h3>Производство</h3>
+                            <div class="benefits-line"></div>
+                            <p>Своя лаборатория. <br>Используем <br>немецкие препараты</p>
+                        </div>
+                        <div class="benefits-wrap">
+                            <div class="benefits-bg"></div>
+                            <img src="img/benefits/reliably.svg" alt="человек">
+                            <h3>Надежно</h3>
+                            <div class="benefits-line"></div>
+                            <p>25 лет на рынке <br>гарантия на работе <br> 2 года</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__application-wrapper" id="application">
+                    <h2>Как оставить заявку</h2>
+                    <div class="application__container">
+                        <div class="application-wrap">
+                            <p><span>1</span></p>
+                            <h3>Оставьте заявку на сайте или позвоните нам</h3>
+                            <p>Менеджер консультирует вас по телефону, выбираем удобное для вас время</p>
+                        </div>
+                        <div class="application-wrap">
+                            <p><span>2</span></p>
+                            <h3>Выезд дезинфектора на ваш адрес</h3>
+                            <p>Приедем в удобное для вас время 24/7</p>
+                        </div>
+                        <div class="application-wrap">
+                            <p><span>3</span></p>
+                            <h3>Осмотр помещения и подписание договора</h3>
+                            <p>Проводим оценку помещения</p>
+                        </div>
+                        <div class="application-wrap">
+                            <p><span>4</span></p>
+                            <h3>Обработка помещения</h3>
+                            <p>Насекомые, грызуны и запахи исчезнут навсегда</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__consultation-wrapper">
+                    <div class="consultation-wrap">
+                        <h2>Оставьте заявку и узнайте точную стоимость</h2>
+                        <div class="btn-wrap">
+                            <div class="btn mail-btn btn-anim"><span>О</span><span>с</span><span>т</span><span>а</span><span>в</span><span>и</span><span>т</span><span>ь</span><pre> </pre><span>з</span><span>а</span><span>я</span><span>в</span><span>к</span><span>у</span></div>
+                        </div>
+                    </div>
+                    <div class="consultation-image consultation__image-sale">
+                        <img src="img/call/phone.png" alt="">
+                    </div>
+                </div>
+                <div class="main__review-wrapper" id="review">
+                        <div class="review-top">
+                            <h2>Отзывы о нас</h2>
+                            <div class="review-btn">Добавить отзыв</div>
+                        </div>
+                    <div class="review-slider">
+                        <div class="review-wrap">
+                            <img src="img/reviews/marjan.png" alt="">
+                            <p><span>Маржан,</span> 50 лет</p>
+                            <p>25 февраля 2021</p>
+                            <div class="review-bg"></div>
+                            <p>Мы живем в частном доме, и каждую осень мыши для нас – это просто напасть. Что мы только не делали: отраву раскидывали, мышеловки по всему дому, устройства разные новомодные покупали, все впустую. Обратились в эту компанию и не пожалели. Рабочие приехали уже на следующий день, да еще и уточнили у нас, какое время нам больше всего подходит. Так вот: травили утром, вечером специально ходила по всему дому, слушала – ни одной мышки! До сих пор тишина в доме! Огромное вам спасибо за помощь, и всем, кому необходимы подобные услуги, очень рекомендую.</p>
+                        </div>
+                        <div class="review-wrap">
+                            <img src="img/reviews/ainur.png" alt="">
+                            <p><span>Айнур,</span> 41 год</p>
+                            <p>8 февраля 2021</p>
+                            <div class="review-bg"></div>
+                            <p>Мы ездили на отдых и видимо оттуда, так сказать, «на память», привезли бельевого клеща. Сами избавиться не могли никак, пришлось вызывать специалистов. Эффективностью, а самое главное аккуратностью выполненной работы мы остались полностью довольны. Я очень переживала за наш диван, так как он белый, но ни одного пятнышка не осталось. Работа выполнена профессионально!</p>
+                        </div>
+                        <div class="review-wrap">
+                            <img src="img/reviews/vyacheslav.png" alt="">
+                            <p><span>Вячеслав,</span> 28 лет</p>
+                            <p>2 февраля 2021</p>
+                            <div class="review-bg"></div>
+                            <p>Переехали в новую квартиру, а в ней оказалось полно тараканов. Пытались использовать разные мелки, спреи, ничего не помогало. Пришлось обратиться за помощью к профессионалам. Заранее оговорили удобное для нас время. Сама дезинсекция заняла меньше часа. Мастеру огромное спасибо за качественно выполненную работу, не пропустил ни одного уголка. Кроме того, после его работы в квартире было абсолютно чисто, да еще и гарантию дали!</p>
+                        </div>
+                        <div class="review-wrap">
+                            <img src="img/reviews/aselhan.png" alt="">
+                            <p><span>Асылхан,</span> 33 года</p>
+                            <p>1 февраля 2021</p>
+                            <div class="review-bg"></div>
+                            <p>У нас в квартире муравьи были. Что только не пробовали, чтобы от них избавиться, ничего не помогало. Знакомые посоветовали «Черный Кот». Качеством их работы остались довольны. Огромное спасибо за помощь, всем рекомендуем. Что еще очень понравилось, так это аккуратность, запах, правда, был немного, но после 30 минут проветривания полностью исчез. Огромное спасибо!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__consultation-wrapper">
+                    <div class="consultation-wrap">
+                        <h2>Оставьте заявку и мы вам перезвоним уже сегодня</h2>
+                        <div class="btn-wrap">
+                            <div class="btn mail-btn btn-anim"><span>О</span><span>с</span><span>т</span><span>а</span><span>в</span><span>и</span><span>т</span><span>ь</span><pre> </pre><span>з</span><span>а</span><span>я</span><span>в</span><span>к</span><span>у</span></div>
+                        </div>
+                    </div>
+                    <div class="consultation-image consultation__image-call">
+                        <img src="img/call/phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="mail-wrapper">
+            <div class="mail-wrap">
+                <div class="mail-container">
+                    <div class="mail-exit"></div>
+                    <form>
+                        <h2 class="mail-mobile">Оставьте заявку для бесплатной консультации</h2>
+                        <h2 class="mail-desktop">Оставьте заявку и мы вам перезвоним</h2>
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Телефон">
+                        <textarea name="text" cols="30" rows="5" placeholder="Комментарий"></textarea>
+                        <div class="mail-bottom">
+                            <div class="btn mail-btn-next"><span>О</span><span>с</span><span>т</span><span>а</span><span>в</span><span>и</span><span>т</span><span>ь</span><pre> </pre><span>з</span><span>а</span><span>я</span><span>в</span><span>к</span><span>у</span></div>
+                            <p>*Ваши данные не будут переданны 3-м лицам </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="mail-wrapper-next">
+            <div class="mail-wrap-next">
+                <div class="mail-container-next">
+                    <div class="mail-exit-next"></div>
+                    <h2>Спасибо за заявку</h2>
+                    <p>Ждите нашего звонка.</p>
+                    <img src="img/contact.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo-wrap">
+                    <div class="logo footer__logo">
+                        <h3>ЧерныйКот</h3>
+                        <img src="img/logo.svg" alt="кот">
+                    </div>
+                    <p>Адрес: г. Караганда, ул. Зои Космодемьянской, 56</p>
+                    <a class="footer__link footer__link-desktop" href="/download/blackcat.rtf" download="">
+                        <img src="img/download.png" alt="загрузка">
+                        Скачать реквизиты World
+                    </a>
+                </div>
+                <div class="footer__info">
+                    Уничтожение насекомых и грызунов в Караганде
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__call-wrap">
+                        <div class="footer__call">
+                            <p class="footer__call-mobile">Остались вопросы?,<br>звоните!</p>
+                            <a href="tel:+77212369000">8 (7212) 369-000</a>
+                            <a href="tel:+7708436900">8 (708) 43-69-00</a>
+                        </div>
+                        <div class="social footer__social">
+                            <a href="https://www.instagram.com/bez_tarakanov_krg/" target="_blank">
+                                <img src="img/social/inst.svg" alt="инстаграм">
+                            </a>
+                            <a href="https://wa.me/87084369000" target="_blank">
+                                <img src="img/social/whatsapp.svg" alt="ватсапп">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="footer__link footer__link-mobile" href="/download/blackcat.rtf" download="">
+                    <img src="img/download.png" alt="загрузка">
+                    Скачать реквизиты World
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
